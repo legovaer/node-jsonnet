@@ -1,11 +1,13 @@
 node-jsonnet
 =====================
 
-[![Build Status](https://travis-ci.org/yosuke-furukawa/node-jsonnet.svg?branch=master)](https://travis-ci.org/yosuke-furukawa/node-jsonnet)
+[![Build Status](https://travis-ci.org/legovaer/node-jsonnet.svg?branch=master)](https://travis-ci.org/legovaer/node-jsonnet)
 
 [jsonnet](http://google.github.io/jsonnet/doc/index.html) is a DSL for JSON. Jsonnet is created by Google.
 
 This module is a Jsonnet wrapper for Node.js
+
+This module is a fork from [yosuke-furukawa/node-jsonnet](https://github.com/yosuke-furukawa/node-jsonnet) as it was no longer maintained.
 
 Jsonnet demo
 ---------------------

@@ -1,35 +1,35 @@
 {
   "name": "jsonnet",
-  "version": "0.5.0-beta",
+  "version": "0.1.0-beta",
   "description": "jsonnet wrapper for Node.js",
   "main": "index.js",
   "directories": {
-    "test": "test"
+    "test": "test/"
   },
   "scripts": {
     "test": "mocha --require intelli-espower-loader"
   },
-  "directories": {
-    "test": "test/"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yosuke-furukawa/node-jsonnet"
+    "url": "https://github.com/legovaer/node-jsonnet"
   },
   "keywords": [
     "jsonnet",
     "json"
   ],
-  "author": "yosuke-furukawa",
+  "author": "Levi Govaerts <legovaer@me.com>",
+  "contributors": [
+    "yosuke-furukawa"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yosuke-furukawa/node-jsonnet/issues"
+    "url": "https://github.com/legovaer/node-jsonnet/issues"
   },
-  "homepage": "https://github.com/yosuke-furukawa/node-jsonnet",
+  "homepage": "https://github.com/legovaer/node-jsonnet",
   "dependencies": {
-    "espower-loader": "^0.8.0",
-    "intelli-espower-loader": "^0.3.0",
-    "mocha": "^1.21.4",
-    "power-assert": "^0.8.0"
+    "espower-loader": "^1.2.2",
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^8.2.1",
+    "power-assert": "^1.6.1"
   }
 }

@@ -1,0 +1,11 @@
+.env
+.istanbul.yml
+.jscs.json
+.jshintrc
+.npmignore
+config
+coverage
+docker-compose.yml
+test
+tmp
+
